@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+:root {
+  font-family: var(--font-sans);
+  color: theme('colors.ink');
+  background-color: theme('colors.porcelain');
+}
