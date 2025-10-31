@@ -2,6 +2,7 @@ import './globals.css';
 import { inter, libre } from './fonts';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
+import { GoogleAnalytics } from '../components/GoogleAnalytics';
 
 export const metadata = {
   title: 'Good Hands — Beauty Concierge',
@@ -15,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${libre.variable}`}>
+      <head>
+        <GoogleAnalytics />
+      </head>
       <body className="bg-porcelain text-ink">
         <Navbar />
         {children}
@@ -23,3 +27,4 @@ export default function RootLayout({
     </html>
   );
 }
+
