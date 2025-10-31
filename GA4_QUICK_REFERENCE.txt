@@ -1,0 +1,84 @@
+╔══════════════════════════════════════════════════════════════╗
+║                  GOOGLE ANALYTICS 4 SETUP                    ║
+║                      QUICK REFERENCE                         ║
+╚══════════════════════════════════════════════════════════════╝
+
+MEASUREMENT ID: G-ZGDMVGP040
+STREAM ID: 12289898409
+PROPERTY: Good Hands - beautysalonlisbon.com
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+VERCEL ENVIRONMENT VARIABLE:
+  Name:  NEXT_PUBLIC_GA_MEASUREMENT_ID
+  Value: G-ZGDMVGP040
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DEPLOYMENT CHECKLIST:
+  ☐ Add environment variable in Vercel
+  ☐ Deploy/redeploy site
+  ☐ Verify GA4 script loads (check browser console)
+  ☐ Check Realtime report in Google Analytics
+  ☐ Test tracking on key pages
+  ☐ Set up custom dimensions (optional)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FEATURES ENABLED:
+  ✓ Page views
+  ✓ Scrolls
+  ✓ Outbound clicks
+  ✓ Site search
+  ✓ Form interactions
+  ✓ Video engagement
+  ✓ File downloads
+  ✓ AI referral detection
+  ✓ Traffic source categorization
+  ✓ Sales funnel tracking (8 steps)
+  ✓ Geographic data collection
+  ✓ UTM parameter support
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TRAFFIC SOURCES TRACKED:
+  • AI Platforms: ChatGPT, Claude, Perplexity, Gemini, etc.
+  • Social Media: Instagram, Facebook, Twitter, LinkedIn, etc.
+  • Search Engines: Google, Bing, Yahoo, DuckDuckGo
+  • Direct: URL typing, bookmarks
+  • Referral: All other websites
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DOCUMENTATION FILES:
+  📄 GA4_SETUP_SUMMARY.md - Complete overview
+  📄 ANALYTICS_IMPLEMENTATION.md - Technical guide
+  📄 CUSTOM_DIMENSIONS_SETUP.md - GA4 configuration
+  📄 TRACKING_EXAMPLES.md - Code examples
+  📄 DEPLOYMENT_CHECKLIST.md - Step-by-step deployment
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+VIEW ANALYTICS:
+  Dashboard: https://analytics.google.com
+  Navigate to: Good Hands property
+  Check: Reports → Realtime (for live data)
+         Reports → Acquisition (for traffic sources)
+         Reports → Engagement (for events)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TESTING:
+  1. Visit site with: ?gtag_debug=1
+  2. Open browser console (F12)
+  3. Navigate through pages
+  4. Check GA4 Realtime report
+  5. Verify events are firing
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STATUS: ✅ Ready for Deployment
+CODE: Committed to master branch
+REPOSITORY: narratum2/good-hands
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
